@@ -141,7 +141,7 @@
          <column autoUpdated="false" digits="0" id="8" name="SystemModstamp" nullable="false" remarks="Label: System Modstamp" size="0" type="datetime"/>
          <column autoUpdated="false" digits="0" id="9" name="LastActivityDate" nullable="false" remarks="Label: Last Activity Date" size="0" type="date"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex6" unique="true">
+         <index name="FakeIndex4" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -163,7 +163,7 @@
          <column autoUpdated="false" digits="0" id="10" name="Internal_Notes__c" nullable="false" remarks="Label: Internal Notes" size="255" type="textarea"/>
          <column autoUpdated="false" digits="0" id="11" name="Items_Last_Index__c" nullable="false" remarks="Label: Items Last Index" size="18" type="decimal"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex12" unique="true">
+         <index name="FakeIndex3" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -204,7 +204,7 @@
          <column autoUpdated="false" digits="0" id="9" name="Record_Key__c" nullable="false" remarks="Label: Record Key" size="100" type="string"/>
          <column autoUpdated="false" digits="0" id="10" name="Record_Type__c" nullable="false" remarks="Label: Record Type" size="100" type="string"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex3" unique="true">
+         <index name="FakeIndex7" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -228,7 +228,7 @@
          <column autoUpdated="false" digits="0" id="12" name="Description_RTA__c" nullable="false" remarks="Label: Additional Description" size="32768" type="textarea"/>
          <column autoUpdated="false" digits="0" id="13" name="Mile_Radius__c" nullable="false" remarks="Label: Mile Radius&#10;Default: 0.020&#10;Help: Mile radius around the specified latitude/longitude for users to do a valid check-in" size="6" type="decimal"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex14" unique="true">
+         <index name="FakeIndex6" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -294,7 +294,7 @@
          <column autoUpdated="false" digits="0" id="43" name="Level__c" nullable="false" remarks="Label: Level&#10;Picklist: Secondary | Tertiary | Primary" size="255" type="picklist"/>
          <column autoUpdated="false" digits="0" id="44" name="Languages__c" nullable="false" remarks="Label: Languages" size="100" type="string"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex4" unique="true">
+         <index name="FakeIndex8" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -313,7 +313,7 @@
          <column autoUpdated="false" digits="0" id="9" name="LastActivityDate" nullable="false" remarks="Label: Last Activity Date" size="0" type="date"/>
          <column autoUpdated="false" digits="0" id="10" name="User__c" nullable="false" remarks="Label: User" size="18" type="reference"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex13" unique="true">
+         <index name="FakeIndex20" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -351,7 +351,7 @@
          <column autoUpdated="false" digits="0" id="18" name="Published__c" nullable="false" remarks="Label: Published" size="0" type="boolean"/>
          <column autoUpdated="false" digits="0" id="19" name="Sync_progress__c" nullable="false" remarks="Label: Sync progress across assignments&#10;Help: Enable this checkbox if you plan to add this learning to multiple training plans and you would like to keep progress in sync between plans" size="0" type="boolean"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex22" unique="true">
+         <index name="FakeIndex9" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -422,7 +422,7 @@
          <column autoUpdated="false" digits="0" id="41" name="Previous_Version_Progress__c" nullable="false" remarks="Label: Previous Version Progress&#10;Picklist: Not Started | In Progress | In Review | Completed | Cancelled" size="255" type="picklist"/>
          <column autoUpdated="false" digits="0" id="42" name="Times_Launched__c" nullable="false" remarks="Label: Times Launched&#10;Help: Times the learning object linked to this assignment has been launched" size="18" type="decimal"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex11" unique="true">
+         <index name="FakeIndex15" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -450,7 +450,7 @@
          <column autoUpdated="false" digits="0" id="16" name="Total_Training_Plans__c" nullable="false" remarks="Label: Total Training Plans" size="18" type="decimal"/>
          <column autoUpdated="false" digits="0" id="17" name="Enable_all_external_accounts__c" nullable="false" remarks="Label: Enable for all external users&#10;Help: Enabling this checkbox will expose this catalog to all external (Community/Portal) users" size="0" type="boolean"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex34" unique="true">
+         <index name="FakeIndex12" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -473,7 +473,7 @@
             <parent column="Id" foreignKey="FakeFK128" implied="false" onDeleteCascade="true" table="Learning_Category__c"/>
          </column>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex49" unique="true">
+         <index name="FakeIndex14" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -520,7 +520,7 @@
          <column autoUpdated="false" digits="0" id="21" name="Update_Status__c" nullable="false" remarks="Label: Update Status&#10;Picklist: New | Pending | In Progress | Completed" size="255" type="picklist"/>
          <column autoUpdated="false" digits="0" id="22" name="Update_Successes__c" nullable="false" remarks="Label: Update Successes" size="18" type="decimal"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex32" unique="true">
+         <index name="FakeIndex11" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -537,7 +537,7 @@
          <column autoUpdated="false" digits="0" id="9" name="Content__c" nullable="false" remarks="Label: Content" size="50000" type="textarea"/>
          <column autoUpdated="false" digits="0" id="10" name="Expiration_Date__c" nullable="false" remarks="Label: Expiration Date" size="0" type="datetime"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex9" unique="true">
+         <index name="FakeIndex22" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -560,7 +560,7 @@
          <column autoUpdated="false" digits="0" id="13" name="IsActive__c" nullable="false" remarks="Label: Is Active&#10;Help: Enable/disable the execution of this rule." size="0" type="boolean"/>
          <column autoUpdated="false" digits="0" id="14" name="Operator__c" nullable="false" remarks="Label: Operator&#10;Help: Operator used in this rule. IN and NOT IN expect a list of comma separated values&#10;Picklist: equals | contains | starts with | ends with | in | not in | regex" size="255" type="picklist"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex8" unique="true">
+         <index name="FakeIndex19" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -579,7 +579,7 @@
          </column>
          <column autoUpdated="false" digits="0" id="10" name="PermSet_API_Name__c" nullable="false" remarks="Label: PermSet API Name&#10;Help: Permission Set API Name" size="100" type="string"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex7" unique="true">
+         <index name="FakeIndex21" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -600,7 +600,7 @@
          <column autoUpdated="false" digits="0" id="13" name="Plugin_Type__c" nullable="false" remarks="Label: Plugin Type&#10;Picklist: Learning" size="255" type="picklist"/>
          <column autoUpdated="false" digits="0" id="14" name="Record_Type__c" nullable="false" remarks="Label: Record Type&#10;Help: Learning Record Type Name for which this plugin will be executed" size="100" type="string"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex35" unique="true">
+         <index name="FakeIndex18" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -654,7 +654,7 @@
          <column autoUpdated="false" digits="0" id="46" name="Community_Custom_Domain__c" nullable="false" remarks="Label: Community Custom Domain&#10;Help: Custom Domain to be used when building community URLs" size="60" type="string"/>
          <column autoUpdated="false" digits="0" id="47" name="Is_Cloudforce_Domain__c" nullable="false" remarks="Label: Is Cloudforce Domain&#10;Help: Enable this option if your org runs in a cloudforce.com domain" size="0" type="boolean"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex10" unique="true">
+         <index name="FakeIndex17" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -692,7 +692,7 @@
          <column autoUpdated="false" digits="0" id="20" name="Max_Answers__c" nullable="false" remarks="Label: Max Answers" size="18" type="decimal"/>
          <column autoUpdated="false" digits="0" id="21" name="Allow_Partial_Credit__c" nullable="false" remarks="Label: Allow Partial Credit" size="0" type="boolean"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex15" unique="true">
+         <index name="FakeIndex36" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -711,7 +711,7 @@
          <column autoUpdated="false" digits="0" id="9" name="LastActivityDate" nullable="false" remarks="Label: Last Activity Date" size="0" type="date"/>
          <column autoUpdated="false" digits="0" id="10" name="Public__c" nullable="false" remarks="Label: Public&#10;Help: Enable this checkbox to make this Question Bank available to all Admin and Publisher users" size="0" type="boolean"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex20" unique="true">
+         <index name="FakeIndex38" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -745,7 +745,7 @@
          <column autoUpdated="false" digits="0" id="18" name="Max_Answers__c" nullable="false" remarks="Label: Max Answers" size="18" type="decimal"/>
          <column autoUpdated="false" digits="0" id="19" name="Allow_Partial_Credit__c" nullable="false" remarks="Label: Allow Partial Credit" size="0" type="boolean"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex21" unique="true">
+         <index name="FakeIndex10" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -768,7 +768,7 @@
          <column autoUpdated="false" digits="0" id="11" name="Order__c" nullable="false" remarks="Label: Order" size="3" type="decimal"/>
          <column autoUpdated="false" digits="0" id="12" name="Total_Questions__c" nullable="false" remarks="Label: Total Questions" size="18" type="decimal"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex17" unique="true">
+         <index name="FakeIndex13" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -787,7 +787,7 @@
          <column autoUpdated="false" digits="0" id="8" name="SystemModstamp" nullable="false" remarks="Label: System Modstamp" size="0" type="datetime"/>
          <column autoUpdated="false" digits="0" id="9" name="LastActivityDate" nullable="false" remarks="Label: Last Activity Date" size="0" type="date"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex16" unique="true">
+         <index name="FakeIndex37" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -817,7 +817,7 @@
          <column autoUpdated="false" digits="0" id="17" name="Time_Limit__c" nullable="false" remarks="Label: Time Limit (mins)&#10;Help: Number of minutes to complete the evaluation" size="4" type="decimal"/>
          <column autoUpdated="false" digits="0" id="18" name="Randomize__c" nullable="false" remarks="Label: Randomize Questions" size="0" type="boolean"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex48" unique="true">
+         <index name="FakeIndex34" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -855,7 +855,7 @@
          </column>
          <column autoUpdated="false" digits="0" id="23" name="User__c" nullable="false" remarks="Label: User" size="18" type="reference"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex19" unique="true">
+         <index name="FakeIndex16" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -878,7 +878,7 @@
             <parent column="Id" foreignKey="FakeFK130" implied="false" onDeleteCascade="true" table="Shared_Learning_Assignment__c"/>
          </column>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex18" unique="true">
+         <index name="FakeIndex33" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -900,7 +900,7 @@
          </column>
          <column autoUpdated="false" digits="0" id="10" name="Hide_Topics__c" nullable="false" remarks="Label: Hide Topics&#10;Help: Hide sidebar topics in rich text viewer" size="0" type="boolean"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex23" unique="true">
+         <index name="FakeIndex30" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -921,7 +921,7 @@
          <column autoUpdated="false" digits="0" id="11" name="Order__c" nullable="false" remarks="Label: Order" size="5" type="decimal"/>
          <column autoUpdated="false" digits="0" id="12" name="Title__c" nullable="false" remarks="Label: Title&#10;Help: Title for this rich text content section" size="255" type="string"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex47" unique="true">
+         <index name="FakeIndex31" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -967,7 +967,7 @@
          <column autoUpdated="false" digits="0" id="24" name="Progress__c" nullable="false" remarks="Label: Progress&#10;Picklist: Not Started | In Progress | In Review | Completed | Cancelled" size="255" type="picklist"/>
          <column autoUpdated="false" digits="0" id="25" name="User__c" nullable="false" remarks="Label: User" size="18" type="reference"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex24" unique="true">
+         <index name="FakeIndex28" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -998,7 +998,7 @@
          <column autoUpdated="false" digits="0" id="18" name="External_Resource_URL__c" nullable="false" remarks="Label: External Resource URL&#10;Help: URL to an external resource that will guide users on how to complete the task" size="255" type="url"/>
          <column autoUpdated="false" digits="0" id="19" name="Requires_Manager_Approval__c" nullable="false" remarks="Label: Requires Manager Approval to Complete&#10;Help: Enable this option if you want to require Manager's approval for completing the task. This option will use the standard Manager field in the User object" size="0" type="boolean"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex25" unique="true">
+         <index name="FakeIndex26" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1017,7 +1017,7 @@
          </column>
          <column autoUpdated="false" digits="0" id="10" name="User__c" nullable="false" remarks="Label: User" size="18" type="reference"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex46" unique="true">
+         <index name="FakeIndex27" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1072,7 +1072,7 @@
          <column autoUpdated="false" digits="0" id="35" name="Do_Not_Reset_Progress_For_New_Versions__c" nullable="false" remarks="Label: Do Not Reset Progress For New Versions&#10;Help: Enable this option to prevent resetting progress for new versions of learning objects" size="0" type="boolean"/>
          <column autoUpdated="false" digits="0" id="36" name="Payment_Required__c" nullable="false" remarks="Label: Payment Required&#10;Help: Enable this option to require payment in order to register to this Training Plan" size="0" type="boolean"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex33" unique="true">
+         <index name="FakeIndex48" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1095,7 +1095,7 @@
          </column>
          <column autoUpdated="false" digits="0" id="14" name="User__c" nullable="false" remarks="Label: User" size="18" type="reference"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex45" unique="true">
+         <index name="FakeIndex25" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1117,7 +1117,7 @@
             <parent column="Id" foreignKey="FakeFK106" implied="false" onDeleteCascade="true" table="Training_Plan__c"/>
          </column>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex26" unique="true">
+         <index name="FakeIndex23" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1145,7 +1145,7 @@
          </column>
          <column autoUpdated="false" digits="0" id="13" name="Type__c" nullable="false" remarks="Label: Type&#10;Picklist: Plan | Section" size="255" type="picklist"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex27" unique="true">
+         <index name="FakeIndex24" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1180,7 +1180,7 @@
          </column>
          <column autoUpdated="false" digits="0" id="22" name="Due_Date__c" nullable="false" remarks="Label: Due Date&#10;Help: Due Date for assignments to be completed" size="0" type="date"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex28" unique="true">
+         <index name="FakeIndex44" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1205,7 +1205,7 @@
          <column autoUpdated="false" digits="0" id="13" name="Successes__c" nullable="false" remarks="Label: Successes" size="18" type="decimal"/>
          <column autoUpdated="false" digits="0" id="14" name="Type__c" nullable="false" remarks="Label: Type&#10;Picklist: Upsert Assignments | Delete Assignments | Update Assignments | Re-calculate Assignments" size="255" type="picklist"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex44" unique="true">
+         <index name="FakeIndex43" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1227,7 +1227,7 @@
          </column>
          <column autoUpdated="false" digits="0" id="11" name="Order__c" nullable="false" remarks="Label: Order" size="6" type="decimal"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex29" unique="true">
+         <index name="FakeIndex40" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1248,7 +1248,7 @@
          <column autoUpdated="false" digits="0" id="11" name="Rating__c" nullable="false" remarks="Label: Rating" size="1" type="decimal"/>
          <column autoUpdated="false" digits="0" id="12" name="User__c" nullable="false" remarks="Label: User" size="18" type="reference"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex30" unique="true">
+         <index name="FakeIndex29" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1270,7 +1270,7 @@
          </column>
          <column autoUpdated="false" digits="0" id="11" name="Instructor_Name__c" nullable="false" remarks="Label: Instructor Name&#10;Formula: Instructor__r.User__r.FirstName&amp;&quot; &quot;&amp;Instructor__r.User__r.LastName" size="1300" type="string"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex31" unique="true">
+         <index name="FakeIndex32" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1295,7 +1295,7 @@
          <column autoUpdated="false" digits="0" id="10" name="Optional__c" nullable="false" remarks="Label: Optional&#10;Help: Enable this option if you plan to make all the items under this section optional" size="0" type="boolean"/>
          <column autoUpdated="false" digits="0" id="11" name="Order__c" nullable="false" remarks="Label: Order&#10;Help: Number that defines the position in which this section will appear under the training plan" size="3" type="decimal"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex41" unique="true">
+         <index name="FakeIndex49" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1323,7 +1323,7 @@
          </column>
          <column autoUpdated="false" digits="0" id="15" name="User__c" nullable="false" remarks="Label: User" size="18" type="reference"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex43" unique="true">
+         <index name="FakeIndex35" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1350,7 +1350,7 @@
          <column autoUpdated="false" digits="0" id="13" name="Optional__c" nullable="false" remarks="Label: Optional" size="0" type="boolean"/>
          <column autoUpdated="false" digits="0" id="14" name="Order__c" nullable="false" remarks="Label: Order" size="3" type="decimal"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex42" unique="true">
+         <index name="FakeIndex39" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1375,7 +1375,7 @@
          <column autoUpdated="false" digits="0" id="13" name="Prevent_completion_on_launch__c" nullable="false" remarks="Label: Delegate assignment completion&#10;Help: Learning objects of type &quot;Resource&quot; are marked as completed on launch by default, enable this option if you want to delegate the completion to the Resource URL" size="0" type="boolean"/>
          <column autoUpdated="false" digits="0" id="14" name="Resource_URL__c" nullable="false" remarks="Label: Resource URL&#10;Help: URL of the learning resource you would like to use for this learning (e.g. https://someurl.com)" size="255" type="url"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex40" unique="true">
+         <index name="FakeIndex41" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1412,7 +1412,7 @@
          <column autoUpdated="false" digits="0" id="20" name="Assign_Only_Self_Registration_Plans__c" nullable="false" remarks="Label: Assign Only Self-Registration Plans&#10;Help: Only assign self-registration enabled Training Plans when assigning/registering for a Training Track" size="0" type="boolean"/>
          <column autoUpdated="false" digits="0" id="21" name="Enable_all_internal_users__c" nullable="false" remarks="Label: Enable for all internal users&#10;Help: Enabling this checkbox will expose this training track to all internal users" size="0" type="boolean"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex38" unique="true">
+         <index name="FakeIndex50" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1434,7 +1434,7 @@
             <parent column="Id" foreignKey="FakeFK104" implied="false" onDeleteCascade="true" table="Training_Track__c"/>
          </column>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex37" unique="true">
+         <index name="FakeIndex42" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1461,7 +1461,7 @@
          </column>
          <column autoUpdated="false" digits="0" id="16" name="User__c" nullable="false" remarks="Label: User" size="18" type="reference"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex36" unique="true">
+         <index name="FakeIndex47" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1483,7 +1483,7 @@
          <column autoUpdated="false" digits="0" id="10" name="Description__c" nullable="false" remarks="Label: Description" size="255" type="textarea"/>
          <column autoUpdated="false" digits="0" id="11" name="Order__c" nullable="false" remarks="Label: Order" size="2" type="decimal"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex50" unique="true">
+         <index name="FakeIndex46" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1505,7 +1505,7 @@
             <parent column="Id" foreignKey="FakeFK71" implied="false" onDeleteCascade="true" table="Training_Plan__c"/>
          </column>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex51" unique="true">
+         <index name="FakeIndex45" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
@@ -1528,7 +1528,7 @@
          <column autoUpdated="false" digits="0" id="15" name="Start_Date__c" nullable="false" remarks="Label: Start Date" size="0" type="date"/>
          <column autoUpdated="false" digits="0" id="16" name="User__c" nullable="false" remarks="Label: User" size="18" type="reference"/>
          <primaryKey column="Id" sequenceNumberInPK="1"/>
-         <index name="FakeIndex39" unique="true">
+         <index name="FakeIndex51" unique="true">
             <column ascending="true" name="Id"/>
          </index>
       </table>
