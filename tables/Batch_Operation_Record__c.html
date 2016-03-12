@@ -17,6 +17,7 @@
  <ul>
   <li><a href='../index.html' title='All tables and views in the schema'>Tables</a></li>
   <li><a href='../relationships.html' title='Diagram of table relationships'>Relationships</a></li>
+  <li><a href='../utilities.html' title='View of tables with neither parents nor children'>Utility&nbsp;Tables</a></li>
   <li><a href='../constraints.html' title='Useful for diagnosing error messages that just give constraint name or number'>Constraints</a></li>
   <li><a href='../anomalies.html' title="Things that might not be quite right">Anomalies</a></li>
   <li><a href='../columns.byTable.html' title="All of the columns in the schema">Columns</a></li>
@@ -153,16 +154,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='detail' align='center'></td>
  <td class='detail'></td>
  <td class='detail'></td>
- <td class='detail'>
-  <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative odd' valign='top'>
-    <td class='relatedTable detail' title="Batch_Operation_Record__c.CreatedById refs User.Id via FakeFK109"><a href='User.html'>User</a><span class='relatedKey'>.Id</span>
-    </td>
-    <td class='constraint detail'>FakeFK109<span title='Cascade on delete:
- Deletion of parent deletes child'>&nbsp;C</span></td>
-   </tr>
-  </table>
- </td>
+ <td class='detail'> </td>
  <td class='comment detail'>Label: Created By ID</td>
 </tr>
 <tr class='even'>
@@ -184,16 +176,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='detail' align='center'></td>
  <td class='detail'></td>
  <td class='detail'></td>
- <td class='detail'>
-  <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative odd' valign='top'>
-    <td class='relatedTable detail' title="Batch_Operation_Record__c.LastModifiedById refs User.Id via FakeFK110"><a href='User.html'>User</a><span class='relatedKey'>.Id</span>
-    </td>
-    <td class='constraint detail'>FakeFK110<span title='Cascade on delete:
- Deletion of parent deletes child'>&nbsp;C</span></td>
-   </tr>
-  </table>
- </td>
+ <td class='detail'> </td>
  <td class='comment detail'>Label: Last Modified By ID</td>
 </tr>
 <tr class='even'>
@@ -218,9 +201,9 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
    <tr class='relative odd' valign='top'>
-    <td class='relatedTable detail' title="Batch_Operation_Record__c.Training_Plan_Batch_Operation__c refs Training_Plan_Batch_Operation__c.Id via FakeFK111"><a href='Training_Plan_Batch_Operation__c.html'>Training_Plan_Batch_Operation__c</a><span class='relatedKey'>.Id</span>
+    <td class='relatedTable detail' title="Batch_Operation_Record__c.Training_Plan_Batch_Operation__c refs Training_Plan_Batch_Operation__c.Id via FakeFK78"><a href='Training_Plan_Batch_Operation__c.html'>Training_Plan_Batch_Operation__c</a><span class='relatedKey'>.Id</span>
     </td>
-    <td class='constraint detail'>FakeFK111<span title='Cascade on delete:
+    <td class='constraint detail'>FakeFK78<span title='Cascade on delete:
  Deletion of parent deletes child'>&nbsp;C</span></td>
    </tr>
   </table>
@@ -251,7 +234,7 @@ Referenced: Batch_Operation_Records__r (cascade delete)</td>
  <td class='comment detail'>Label: Record Type</td>
 </tr>
 </table>
-<p title='11 columns'>Analyzed at Sat Mar 12 11:30 PST 2016<p/>
+<p title='11 columns'>Analyzed at Sat Mar 12 11:59 PST 2016<p/>
 </td></tr></table>
 <div class='indent'>
 <b>Indexes:</b>
@@ -269,7 +252,7 @@ Referenced: Batch_Operation_Records__r (cascade delete)</td>
   <td class='indexedColumn'>Id</td>
   <td class='detail'>Must be unique</td>
   <td class='detail' style='text-align:left;'><span title='Ascending'>Asc</span></td>
-  <td class='constraint' style='text-align:left;'>FakeIndex2</td>
+  <td class='constraint' style='text-align:left;'>FakeIndex6</td>
  </tr>
 </table>
 </div>
@@ -277,65 +260,14 @@ Referenced: Batch_Operation_Records__r (cascade delete)</td>
 <br><form action='get'><b>Close relationships</b><span class='degrees' id='degrees' title='Detail diminishes with increased separation from Batch_Operation_Record__c'>
 &nbsp;within <label for='oneDegree'><input type='radio' name='degrees' id='oneDegree' checked>one</label>  <label for='twoDegrees'><input type='radio' name='degrees' id='twoDegrees'>two degrees</label> of separation</span><b>:</b></form>
 <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="Batch_Operation_Record__c.html" title="Batch_Operation_Record__c" alt="" coords="565,5,840,283">
-<area shape="rect" id="node2" href="User.html" title="User" alt="" coords="6,194,277,1686">
-<area shape="rect" id="node3" href="Training_Plan_Batch_Operation__c.html" title="Training_Plan_Batch_Operation__c" alt="" coords="322,187,521,539">
+<area shape="rect" id="node1" href="Batch_Operation_Record__c.html" title="Batch_Operation_Record__c" alt="" coords="249,5,524,283">
+<area shape="rect" id="node2" href="Training_Plan_Batch_Operation__c.html" title="Training_Plan_Batch_Operation__c" alt="" coords="6,169,205,521">
 </map>
   <a name='diagram'><img id='oneDegreeImg' src='../diagrams/Batch_Operation_Record__c.1degree.png' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
 <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="Account.html" title="Account" alt="" coords="502,3429,584,3501">
-<area shape="rect" id="node2" href="User.html" title="User" alt="" coords="148,1962,418,3454">
-<area shape="rect" id="node6" href="Contact.html" title="Contact" alt="" coords="21,1961,102,2033">
-<area shape="rect" id="node3" href="Achievement__c.html" title="Achievement__c" alt="" coords="714,573,823,645">
-<area shape="rect" id="node4" href="Achievement_Category__c.html" title="Achievement_Category__c" alt="" coords="464,823,622,895">
-<area shape="rect" id="node5" href="Achievement_Assignment__c.html" title="Achievement_Assignment__c" alt="" coords="1243,433,1414,505">
-<area shape="rect" id="node7" href="Training_Plan_Achievement__c.html" title="Training_Plan_Achievement__c" alt="" coords="961,521,1141,593">
-<area shape="rect" id="node8" href="Training_Track__c.html" title="Training_Track__c" alt="" coords="992,3213,1110,3285">
-<area shape="rect" id="node19" href="Training_Plan__c.html" title="Training_Plan__c" alt="" coords="487,2743,599,2815">
-<area shape="rect" id="node20" href="Training_Plan_Section__c.html" title="Training_Plan_Section__c" alt="" coords="691,1889,846,1961">
-<area shape="rect" id="node23" href="Learning_Category__c.html" title="Learning_Category__c" alt="" coords="474,3272,612,3344">
-<area shape="rect" id="node9" href="Answer_Sequence__c.html" title="Answer_Sequence__c" alt="" coords="474,1244,612,1316">
-<area shape="rect" id="node10" href="Answer_Sequence_Item__c.html" title="Answer_Sequence_Item__c" alt="" coords="686,1104,850,1176">
-<area shape="rect" id="node11" href="Batch_Operation_Record__c.html" title="Batch_Operation_Record__c" alt="" coords="914,647,1188,924">
-<area shape="rect" id="node12" href="Training_Plan_Batch_Operation__c.html" title="Training_Plan_Batch_Operation__c" alt="" coords="669,735,868,1087">
-<area shape="rect" id="node13" href="CheckIn__c.html" title="CheckIn__c" alt="" coords="500,2145,586,2217">
-<area shape="rect" id="node14" href="Learning__c.html" title="Learning__c" alt="" coords="1006,2136,1096,2208">
-<area shape="rect" id="node16" href="Learning_Version__c.html" title="Learning_Version__c" alt="" coords="703,2272,834,2344">
-<area shape="rect" id="node15" href="Instructor__c.html" title="Instructor__c" alt="" coords="497,3603,589,3675">
-<area shape="rect" id="node25" href="Quiz__c.html" title="Quiz__c" alt="" coords="502,2056,584,2128">
-<area shape="rect" id="node26" href="RichText__c.html" title="RichText__c" alt="" coords="499,2376,587,2448">
-<area shape="rect" id="node27" href="Task__c.html" title="Task__c" alt="" coords="502,2517,584,2589">
-<area shape="rect" id="node28" href="Training_Resource__c.html" title="Training_Resource__c" alt="" coords="474,2235,612,2307">
-<area shape="rect" id="node17" href="Learning_Assignment__c.html" title="Learning_Assignment__c" alt="" coords="1481,1959,1632,2031">
-<area shape="rect" id="node18" href="Shared_Learning_Assignment__c.html" title="Shared_Learning_Assignment__c" alt="" coords="1233,2784,1424,2856">
-<area shape="rect" id="node21" href="Training_Plan_Section_Assignment__c.html" title="Training_Plan_Section_Assignment__c" alt="" coords="943,1612,1159,1684">
-<area shape="rect" id="node22" href="Training_Plan_Section_Item__c.html" title="Training_Plan_Section_Item__c" alt="" coords="1238,1959,1419,2031">
-<area shape="rect" id="node45" href="Training_Plan_Assignment__c.html" title="Training_Plan_Assignment__c" alt="" coords="681,1700,856,1772">
-<area shape="rect" id="node24" href="Learning_Category_Account__c.html" title="Learning_Category_Account__c" alt="" coords="677,3349,860,3421">
-<area shape="rect" id="node29" href="LMS_Cache__c.html" title="LMS_Cache__c" alt="" coords="490,104,596,176">
-<area shape="rect" id="node30" href="LMS_Permission_Rule__c.html" title="LMS_Permission_Rule__c" alt="" coords="465,193,621,265">
-<area shape="rect" id="node31" href="LMS_Permission_Rule_PermSet__c.html" title="LMS_Permission_Rule_PermSet__c" alt="" coords="667,263,870,335">
-<area shape="rect" id="node32" href="LMS_Plugin__c.html" title="LMS_Plugin__c" alt="" coords="490,335,596,407">
-<area shape="rect" id="node33" href="LMS_Settings__c.html" title="LMS_Settings__c" alt="" coords="486,424,600,496">
-<area shape="rect" id="node34" href="Question__c.html" title="Question__c" alt="" coords="1006,1419,1096,1491">
-<area shape="rect" id="node35" href="Question_Bank_Question__c.html" title="Question_Bank_Question__c" alt="" coords="684,1491,853,1563">
-<area shape="rect" id="node36" href="Question_Line__c.html" title="Question_Line__c" alt="" coords="710,1277,826,1349">
-<area shape="rect" id="node37" href="Question_Topic__c.html" title="Question_Topic__c" alt="" coords="482,1527,604,1599">
-<area shape="rect" id="node38" href="Question_Bank__c.html" title="Question_Bank__c" alt="" coords="483,1437,603,1509">
-<area shape="rect" id="node39" href="Response__c.html" title="Response__c" alt="" coords="1714,1189,1809,1261">
-<area shape="rect" id="node40" href="Response_Summary__c.html" title="Response_Summary__c" alt="" coords="1688,3952,1835,4024">
-<area shape="rect" id="node41" href="RichText_Content__c.html" title="RichText_Content__c" alt="" coords="702,2413,834,2485">
-<area shape="rect" id="node42" href="Task_Approver__c.html" title="Task_Approver__c" alt="" coords="709,2539,828,2611">
-<area shape="rect" id="node43" href="Training_Plan_Access_Request__c.html" title="Training_Plan_Access_Request__c" alt="" coords="669,2768,868,2840">
-<area shape="rect" id="node44" href="Training_Plan_Account__c.html" title="Training_Plan_Account__c" alt="" coords="690,2947,847,3019">
-<area shape="rect" id="node46" href="Training_Plan_Category__c.html" title="Training_Plan_Category__c" alt="" coords="688,2857,849,2929">
-<area shape="rect" id="node47" href="Training_Plan_Feedback__c.html" title="Training_Plan_Feedback__c" alt="" coords="686,3136,851,3208">
-<area shape="rect" id="node48" href="Training_Plan_Instructor__c.html" title="Training_Plan_Instructor__c" alt="" coords="687,3607,850,3679">
-<area shape="rect" id="node49" href="Training_Track_Account__c.html" title="Training_Track_Account__c" alt="" coords="1247,2616,1410,2688">
-<area shape="rect" id="node50" href="Training_Track_Assignment__c.html" title="Training_Track_Assignment__c" alt="" coords="1239,3515,1418,3587">
-<area shape="rect" id="node51" href="Training_Track_Level__c.html" title="Training_Track_Level__c" alt="" coords="1254,3724,1403,3796">
-<area shape="rect" id="node52" href="Training_Track_Level_Item__c.html" title="Training_Track_Level_Item__c" alt="" coords="1468,3768,1644,3840">
-<area shape="rect" id="node53" href="User_Certification__c.html" title="User_Certification__c" alt="" coords="477,513,609,585">
+<area shape="rect" id="node1" href="Batch_Operation_Record__c.html" title="Batch_Operation_Record__c" alt="" coords="405,5,680,283">
+<area shape="rect" id="node2" href="Training_Plan_Batch_Operation__c.html" title="Training_Plan_Batch_Operation__c" alt="" coords="162,169,361,521">
+<area shape="rect" id="node3" href="Training_Plan__c.html" title="Training_Plan__c" alt="" coords="5,349,117,421">
 </map>
 
   <a name='diagram'><img id='twoDegreesImg' src='../diagrams/Batch_Operation_Record__c.2degrees.png' usemap='#twoDegreesRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>

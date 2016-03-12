@@ -1,0 +1,77 @@
+// dot 2.36.0 on Mac OS X 10.10.3
+// SchemaSpy rev 590
+digraph "LMS_Settings__c" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Arial"
+    fontsize="8"
+  ];
+  node [
+    fontname="Arial"
+    fontsize="8"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "LMS_Settings__c" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">LMS_Settings__c</TD></TR>
+      <TR><TD PORT="Id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">Id</TD></TR>
+      <TR><TD PORT="IsDeleted" COLSPAN="3" ALIGN="LEFT">IsDeleted</TD></TR>
+      <TR><TD PORT="Name" COLSPAN="3" ALIGN="LEFT">Name</TD></TR>
+      <TR><TD PORT="SetupOwnerId" COLSPAN="3" ALIGN="LEFT">SetupOwnerId</TD></TR>
+      <TR><TD PORT="CreatedDate" COLSPAN="3" ALIGN="LEFT">CreatedDate</TD></TR>
+      <TR><TD PORT="CreatedById" COLSPAN="3" ALIGN="LEFT">CreatedById</TD></TR>
+      <TR><TD PORT="LastModifiedDate" COLSPAN="3" ALIGN="LEFT">LastModifiedDate</TD></TR>
+      <TR><TD PORT="LastModifiedById" COLSPAN="3" ALIGN="LEFT">LastModifiedById</TD></TR>
+      <TR><TD PORT="SystemModstamp" COLSPAN="3" ALIGN="LEFT">SystemModstamp</TD></TR>
+      <TR><TD PORT="Back_to_SF_URL__c" COLSPAN="3" ALIGN="LEFT">Back_to_SF_URL__c</TD></TR>
+      <TR><TD PORT="Company_Logo__c" COLSPAN="3" ALIGN="LEFT">Company_Logo__c</TD></TR>
+      <TR><TD PORT="Custom_Section_Name__c" COLSPAN="3" ALIGN="LEFT">Custom_Section_Name__c</TD></TR>
+      <TR><TD PORT="Custom_Section_URL__c" COLSPAN="3" ALIGN="LEFT">Custom_Section_URL__c</TD></TR>
+      <TR><TD PORT="Disable_Correct_Response_Checkbox__c" COLSPAN="3" ALIGN="LEFT">Disable_Correct_Response_Checkbox__c</TD></TR>
+      <TR><TD PORT="Disable_Feed_Item_Audit_Fields__c" COLSPAN="3" ALIGN="LEFT">Disable_Feed_Item_Audit_Fields__c</TD></TR>
+      <TR><TD PORT="Disable_Future_Progress_Calculation__c" COLSPAN="3" ALIGN="LEFT">Disable_Future_Progress_Calculation__c</TD></TR>
+      <TR><TD PORT="Disable_Leaderboard_Refresh_On_Load__c" COLSPAN="3" ALIGN="LEFT">Disable_Leaderboard_Refresh_On_Load__c</TD></TR>
+      <TR><TD PORT="Disable_Leaderboard__c" COLSPAN="3" ALIGN="LEFT">Disable_Leaderboard__c</TD></TR>
+      <TR><TD PORT="Disable_Track_Achievements__c" COLSPAN="3" ALIGN="LEFT">Disable_Track_Achievements__c</TD></TR>
+      <TR><TD PORT="Enable_iOS_Tap_Fix__c" COLSPAN="3" ALIGN="LEFT">Enable_iOS_Tap_Fix__c</TD></TR>
+      <TR><TD PORT="Header_Background_Color__c" COLSPAN="3" ALIGN="LEFT">Header_Background_Color__c</TD></TR>
+      <TR><TD PORT="Header_Text_Color__c" COLSPAN="3" ALIGN="LEFT">Header_Text_Color__c</TD></TR>
+      <TR><TD PORT="Header_Text_Hover_Color__c" COLSPAN="3" ALIGN="LEFT">Header_Text_Hover_Color__c</TD></TR>
+      <TR><TD PORT="Hide_Back_to_SF_Button__c" COLSPAN="3" ALIGN="LEFT">Hide_Back_to_SF_Button__c</TD></TR>
+      <TR><TD PORT="Show_Salesforce_Header__c" COLSPAN="3" ALIGN="LEFT">Show_Salesforce_Header__c</TD></TR>
+      <TR><TD PORT="Google_Maps_API_Key__c" COLSPAN="3" ALIGN="LEFT">Google_Maps_API_Key__c</TD></TR>
+      <TR><TD PORT="Disable_User_Certification_Uploads__c" COLSPAN="3" ALIGN="LEFT">Disable_User_Certification_Uploads__c</TD></TR>
+      <TR><TD PORT="Custom_Leader_Board_Report__c" COLSPAN="3" ALIGN="LEFT">Custom_Leader_Board_Report__c</TD></TR>
+      <TR><TD PORT="Disable_Learning_Preview_Redirection__c" COLSPAN="3" ALIGN="LEFT">Disable_Learning_Preview_Redirection__c</TD></TR>
+      <TR><TD PORT="Hide_Training_Catalog_Section__c" COLSPAN="3" ALIGN="LEFT">Hide_Training_Catalog_Section__c</TD></TR>
+      <TR><TD PORT="Hide_Training_Tracks_Section__c" COLSPAN="3" ALIGN="LEFT">Hide_Training_Tracks_Section__c</TD></TR>
+      <TR><TD PORT="Hide_Certifications_Section__c" COLSPAN="3" ALIGN="LEFT">Hide_Certifications_Section__c</TD></TR>
+      <TR><TD PORT="Hide_Community_Salesforce_Header__c" COLSPAN="3" ALIGN="LEFT">Hide_Community_Salesforce_Header__c</TD></TR>
+      <TR><TD PORT="Custom_Logout_URL__c" COLSPAN="3" ALIGN="LEFT">Custom_Logout_URL__c</TD></TR>
+      <TR><TD PORT="Enable_Learning_Object_Sharing__c" COLSPAN="3" ALIGN="LEFT">Enable_Learning_Object_Sharing__c</TD></TR>
+      <TR><TD PORT="Disable_Assignments_Version_Backup__c" COLSPAN="3" ALIGN="LEFT">Disable_Assignments_Version_Backup__c</TD></TR>
+      <TR><TD PORT="Enable_Previous_Version_Shared_Updates__c" COLSPAN="3" ALIGN="LEFT">Enable_Previous_Version_Shared_Updates__c</TD></TR>
+      <TR><TD PORT="Hide_Training_Plans_Progress_Info__c" COLSPAN="3" ALIGN="LEFT">Hide_Training_Plans_Progress_Info__c</TD></TR>
+      <TR><TD PORT="Track_Learning_Object_Launch_Attempts__c" COLSPAN="3" ALIGN="LEFT">Track_Learning_Object_Launch_Attempts__c</TD></TR>
+      <TR><TD PORT="Disable_Track_Progress_Calculation__c" COLSPAN="3" ALIGN="LEFT">Disable_Track_Progress_Calculation__c</TD></TR>
+      <TR><TD PORT="Hide_User_Menu__c" COLSPAN="3" ALIGN="LEFT">Hide_User_Menu__c</TD></TR>
+      <TR><TD PORT="Disable_Async_Permission_Rules__c" COLSPAN="3" ALIGN="LEFT">Disable_Async_Permission_Rules__c</TD></TR>
+      <TR><TD PORT="Disable_User_Trigger__c" COLSPAN="3" ALIGN="LEFT">Disable_User_Trigger__c</TD></TR>
+      <TR><TD PORT="Training_Payment_URL__c" COLSPAN="3" ALIGN="LEFT">Training_Payment_URL__c</TD></TR>
+      <TR><TD PORT="Checkout_Plugin__c" COLSPAN="3" ALIGN="LEFT">Checkout_Plugin__c</TD></TR>
+      <TR><TD PORT="Achievement_Print_URL__c" COLSPAN="3" ALIGN="LEFT">Achievement_Print_URL__c</TD></TR>
+      <TR><TD PORT="Community_Custom_Domain__c" COLSPAN="3" ALIGN="LEFT">Community_Custom_Domain__c</TD></TR>
+      <TR><TD PORT="Is_Cloudforce_Domain__c" COLSPAN="3" ALIGN="LEFT">Is_Cloudforce_Domain__c</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/LMS_Settings__c.html"
+    tooltip="LMS_Settings__c"
+  ];
+}
